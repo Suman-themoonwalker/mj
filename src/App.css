@@ -1,38 +1,135 @@
-.App {
+body{
+  font-family: montserrat;
+  outline: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+*{
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.toggler{
+  display:none;
+}
+.nav-header nav{
+  height: 3rem;
+  background-color: black;
+ }
+.nav-header nav ul li{
+  display: inline-block;
+  line-height: 1rem;
+  margin: 0 0.5rem;
+}
+.nav-header ul .right-side{
+  display: inline-block;
+  margin-left:35rem;
+}
+.nav-header ul li a{
+  color: snow;
+  text-transform: none;
+  border-right: 0.1rem solid snow;
+}
+ .nav-header ul li a:link{
+   text-decoration: none;
+ }
+.nav-header ul li a:hover{
+  background: red;
+  transition: .5s;
+}
+.logo{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.carousel-inner img{
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#Bad{
+    height: 2.5rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#Beat{
+  height: 2.8rem;
 }
-
-.App-link {
-  color: #61dafb;
+#History{
+  height: 3.5rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#MJ1973{
+  height: 4rem;
+}
+.card-block a:link{
+  text-decoration: none;
+}
+.card-block img{
+  margin-left: 0;
+}
+.card-footer{
+  color: snow;
+  background: black;
+}
+.card-footer:hover{
+  background-color: red;
+}
+.page-footer{
+  background-color: #8B0000;
+}
+.page-footer a{
+  color: snow;
+  font-size: small;
+}
+.page-footer a:link{
+  text-decoration: none;
+}
+.page-footer #help{
+  position: relative;
+  right: -1rem;
+}
+.page-footer #company{
+  position: relative;
+  right: -1rem;
+}
+.page-footer #business{
+  position: relative;;
+  right: -1rem;
+}
+.page-footer #social{
+  position: relative;
+  right: -1rem;
+}
+.page-footer #press{
+  position: relative;
+  right: -3rem;
+}
+.page-footer h6{
+  color:#f0f0f0;
+}
+.footer-copyright{
+  background-color: #8B0000;
+}
+.footer-copyright p{
+  color: #f0f0f0;
+  text-align: center;
+}
+.page-footer #dna{
+  width: 5rem;
+  height: 3rem;
+}
+.page-footer #story{
+  position: relative;
+  right: 1rem;
+}
+.page-footer #paypal{
+  position: relative;
+  right: 1rem;
+}
+.page-footer #sponsors{
+  position: relative;
+  top:1rem;
+  left: 1rem;
 }
